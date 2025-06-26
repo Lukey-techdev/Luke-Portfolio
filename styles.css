@@ -218,10 +218,60 @@ nav .right a span {
     margin-bottom: 570px;
 }
 
-.coming-soon {
-    font-size: 25px;
-    margin-top: 250px;
+.project-card {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
 }
+
+.project-card img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.project-card img:hover {
+  transform: scale(1.02);
+}
+
+.project-card h3 {
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.project-card p {
+  font-size: 25px;
+  margin: 10px 10px;
+  color: #333;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.project-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: var(--link-color);
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.project-links a:hover {
+  background-color: #355edb;
+}
+
 
 
 /* CROSS PLATFORM COMPATABILITY */
