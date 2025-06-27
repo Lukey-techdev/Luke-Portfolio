@@ -1,7 +1,7 @@
 :root {
     --text-color: #1a1c20;
     --link-color: #4a76ee;
-    --background-color: #eeeff1;
+    --background-color: #fbeeee; 
 }
 
 * {
@@ -32,7 +32,7 @@ a {
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     height: 60px;
     width: 100%;
@@ -40,13 +40,6 @@ nav {
     background-color: var(--background-color);
 }
 
-nav .left a:hover {
-    transform: scale(1.2); 
-}
-
-nav .right a:hover {
-    transform: scale(1.2); 
-}
 
 nav .left a {
     color: var(--text-color);
@@ -56,6 +49,10 @@ nav .left a {
     align-items: center; 
     transition: transform 0.3s ease; 
     gap: 15px; 
+}
+
+nav .left a:hover {
+    transform: scale(1.05); 
 }
 
 nav .right {
@@ -68,13 +65,13 @@ nav .right a {
     display: inline-flex;
     align-items: center;
     transition: transform 0.3s ease;
+    font-size: 22px;     
+    padding: 5px 5px;  
+    gap:1px; 
 }
 
-nav .right a:last-child {
-    color: var(--background-color);
-    background-color: var(--text-color);
-    padding: 5px 15px;
-    border-radius: 5px;
+nav .right a:hover {
+    transform: scale(1.1); 
 }
 
 nav .right a span {
@@ -85,16 +82,18 @@ nav .right a span {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 0 50px;
-    margin: 50px 0;
-    margin-bottom: 100px;
-    gap: 40px; 
+    margin: 150px 0;
+    gap: 50px; 
 }
 
-.hero-section .text {
-    flex: 5;
+.hero-section .headshot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section .text h1 {
@@ -121,15 +120,10 @@ nav .right a span {
     border: 2px solid var(--text-color);
 }
 
-.hero-section .headshot {
-    flex: 2;
-    display: flex;
-    justify-content: right;
-}
-
 .hero-section .headshot img {
+
     border-radius: 50%;
-    width: 425px;
+    width: 450px;
 }
 
 .hero-section p {
