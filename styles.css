@@ -315,68 +315,34 @@ nav .right a span {
 
 /* CROSS PLATFORM COMPATABILITY */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     nav {
         padding: 0 20px;
     }
 
     nav .right a {
-        font-size: 22px;
-    }
-
-    nav .right a:last-child {
-        color: var(--text-color);
-        background-color: transparent;
-        padding: 0;
+        font-size: 25px;
     }
 
     nav .right a span {
         display: none;
     }
-    
-    .hero-section {
-        padding: 0 20px;
-    }
 
-    .hero-section .text h2 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 800px) {
-    
     .hero-section {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .hero-section .headshot img {
-        width: 340px;
+        width: 320px;
+        margin-top: -40px;
     }
 
 
 .skills-section {
     padding: 0 20px;
-}
-
-.skills-section .cells .cell span {
-    font-size: 16px;
-}
-
-.contact-section .group {
-    flex-direction: column;
-}
-.contact-section {
-    padding: 0 20px;
+    margin-top: 200px;
 }
 }
-
-@media (max-width: 850px) {
-    /* SECTION 1 Hero */
-    .hero-section .text h2 {
-        font-size: 35px;
-    }
-    
-    }
 
 @keyframes bounceRight {
   0%, 100% {
