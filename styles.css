@@ -276,6 +276,47 @@ nav .right a span {
   background-color: #355edb;
 }
 
+.skills-projects-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.projects-button .click-hint {
+  font-size: 16px;
+  color: #555;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: default;
+  user-select: none;
+}
+
+.projects-button a {
+  display: inline-block;
+  padding: 12px 15px;
+  font-size: 19px;
+  border: 2px solid var(--link-color);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: .1s;
+}
+
+.projects-button a:hover {
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+}
+
+.projects-button:hover .click-hint {
+  animation: bounceRight 1.5s infinite;
+}
 
 
 /* CROSS PLATFORM COMPATABILITY */
@@ -342,48 +383,6 @@ nav .right a span {
     }
     
     }
-
-.skills-projects-btn {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-}
-
-.projects-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.projects-button .click-hint {
-  font-size: 16px;
-  color: #555;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  cursor: default;
-  user-select: none;
-}
-
-.projects-button a {
-  display: inline-block;
-  padding: 12px 15px;
-  font-size: 19px;
-  border: 2px solid var(--link-color);
-  border-radius: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  transition: .1s;
-}
-
-.projects-button a:hover {
-  color: var(--text-color);
-  border: 2px solid var(--text-color);
-}
-
-.projects-button:hover .click-hint {
-  animation: bounceRight 1.5s infinite;
-}
 
 @keyframes bounceRight {
   0%, 100% {
