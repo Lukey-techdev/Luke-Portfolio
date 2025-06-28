@@ -1,163 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Luke Lowerson - Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
-    <link rel="stylesheet" 
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-          crossorigin="anonymous" 
-          referrerpolicy="no-referrer">
-    <meta property="og:title" content="My Portfolio">
-    <meta property="og:description" content="My personal portfolio website displaying my goals, skillset and projects.">
-    <meta property="og:image" content="https://luke-portfolio-page.netlify.app/images/thumbnail.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:url" content="https://luke-portfolio-page.netlify.app/">
-    <meta property="og:type" content="website">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta property="og:title" content="My Portfolio" />
+    <meta
+      property="og:description"
+      content="My personal portfolio website displaying my goals, skillset and projects."
+    />
+    <meta
+      property="og:image"
+      content="https://luke-portfolio-page.netlify.app/images/thumbnail.jpg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:url"
+      content="https://luke-portfolio-page.netlify.app/"
+    />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="left">
+        <a href="#welcome-section">Luke Lowerson</a>
+      </div>
 
-<nav id="navbar">
+      <div class="right">
+        <a href="https://github.com/Lukey-techdev" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
 
-<div class="left">
-  <a href="#welcome-section">Luke Lowerson</a>
-</div>
+        <a href="https://www.linkedin.com/in/luke-lowerson" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
 
+        <a href="mailto:lukey.techdev@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
 
-<div class="right">
-<a href="https://github.com/Lukey-techdev" target="_blank">
-    <i class="fa-brands fa-github"></i>
-    <span>Github</span>
-</a>
-
-<a href="https://www.linkedin.com/in/luke-lowerson" target="_blank">
-    <i class="fa-brands fa-linkedin"></i>
-    <span>Linkedin</span>
-</a>
-
-<a href="mailto:lukey.techdev@gmail.com">
-    <i class="fa-solid fa-envelope"></i>
-    <span>Email</span>
-</a>
-</div>
-</nav>
-
-<main>
-<section id="welcome-section" class="hero-section">
-
-<div class="headshot">
-  <a href="/CV/Luke_Lowerson_CV.pdf" target="_blank" aria-label="Download my CV">
-<img src="images/headshot.jpg" alt="Portrait photo of Luke Lowerson">
-</a>
-</div>
-
-<div class="text">
-<h1>Hey, I'm Luke</h1>
-<p> Software Developer
-</p>
-
-<div class="links">
-
-<div class="projects-button">
-<a href="#skills">
-    <i class="fa-solid fa-code"></i>
-    <span>Skills</span>
-  </a>
-<a href="#projects">
-    <i class="fa-solid fa-briefcase"></i> 
-    <span>Projects</span>
-  </a>
-  <a href="/CV/Luke_Lowerson_CV.pdf" target="_blank" rel="noopener noreferrer">
-    <i class="fa-solid fa-file-lines"></i> 
-    <span>CV</span>
-  </a>
-   </div>
-</div>
-</div>
-</section>
-
- 
-<section id="skills" class="skills-section">
-<h2>Skills</h2>
-<div class="text">
-<p>My core coding language skillset.
-</p>
-</div>
-
-<div class="cells">
-    <div class="cell">
-        <img src="images/html-logo.webp" alt="HTML LOGO">
-        <span>HTML</span>
-    </div>
-
-    <div class="cell">
-        <img src="images/css-logo.webp" alt="CSS LOGO">
-        <span>CSS</span>
-    </div>
-
-    <div class="cell">
-        <img src="images/javascript-logo.webp" alt="JS LOGO">
-        <span>JavaScript</span>
-    </div>
-        <div class="cell">
-            <img src="images/node-logo.webp" alt="Node LOGO">
-            <span>Node.js</span>
+    <main>
+      <section id="welcome-section" class="hero-section">
+        <div class="headshot">
+          <a
+            href="/CV/Luke_Lowerson_CV.pdf"
+            target="_blank"
+            aria-label="Download my CV"
+          >
+            <img
+              src="images/headshot.jpg"
+              alt="Portrait photo of Luke Lowerson"
+            />
+          </a>
         </div>
-            <div class="cell">
-                <img src="images/react-logo.webp" alt="React LOGO">
-                <span>React.js</span>
-    </div>
-</div>
 
-<div class="certificate">
-    <img src="images/certificate.png" alt="Responsive Web Design Certificate from freeCodeCamp" />
-  </div>
+        <div class="text">
+          <h1>Hey, I'm Luke</h1>
+          <p>Software Developer</p>
 
-  <p class="certificate-note">Certified in Responsive Web Design by freeCodeCamp.</p>
+          <div class="links">
+            <div class="projects-button">
+              <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+              </a>
+              <a href="#projects">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Projects</span>
+              </a>
+              <a
+                href="/CV/Luke_Lowerson_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-file-lines"></i>
+                <span>CV</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <div class="skills-projects-btn">
-  <div class="projects-button">
-    <a href="#projects">
-      <i class="fa-solid fa-briefcase"></i> 
-      <span>Projects</span>
-    </a>
-    <span class="click-hint">
-      <i class="fa-solid fa-arrow-left"></i>
-      Click me
-    </span>
-  </div>
-</div>
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          <p>My core coding language skillset.</p>
+        </div>
 
-</section>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="HTML LOGO" />
+            <span>HTML</span>
+          </div>
 
-<section id="projects">
-  <h1>Projects</h1>
-  <div class="project-card">
-    <a href="https://thrive-project.netlify.app/" target="_blank" rel="noopener referrer">
-      <img src="images/thrive-light.jpg" alt="Thrive light mode screenshot">
-    </a>
-    <h3>Thrive 🌿</h3>
-    <p>A responsive login page with toggleable dark/light mode, nature-themed design, and modern UI elements.</p>
-    <div class="project-links">
-      <a href="https://thrive-project.netlify.app/" target="_blank">🌐 Live Demo</a>
-      <a href="https://github.com/Lukey-techdev/thrive" target="_blank">📁 View Code</a>
-    </div>
-  </div>
-<div class="coming-soon">
-  <p>More Coming Soon!</p>
-</div>
-</section>
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="CSS LOGO" />
+            <span>CSS</span>
+          </div>
 
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="JS LOGO" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="Node LOGO" />
+            <span>Node.js</span>
+          </div>
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="React LOGO" />
+            <span>React.js</span>
+          </div>
+        </div>
 
+        <div class="certificate">
+          <img
+            src="images/certificate.png"
+            alt="Responsive Web Design Certificate from freeCodeCamp"
+          />
+        </div>
 
-</main>
+        <p class="certificate-note">
+          Certified in Responsive Web Design by freeCodeCamp.
+        </p>
 
-</body>
+        <div class="skills-projects-btn">
+          <div class="projects-button">
+            <a href="#projects">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>Projects</span>
+            </a>
+            <span class="click-hint">
+              <i class="fa-solid fa-arrow-left"></i>
+              Click me
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-card">
+          <a
+            href="https://thrive-project.netlify.app/"
+            target="_blank"
+            rel="noopener referrer"
+          >
+            <img
+              src="images/thrive-light.jpg"
+              alt="Thrive light mode screenshot"
+            />
+          </a>
+          <h3>Thrive 🌿</h3>
+          <p>
+            A responsive login page with toggleable dark/light mode,
+            nature-themed design, and modern UI elements.
+          </p>
+          <div class="project-links">
+            <a href="https://thrive-project.netlify.app/" target="_blank"
+              >🌐 Live Demo</a
+            >
+            <a href="https://github.com/Lukey-techdev/thrive" target="_blank"
+              >📁 View Code</a
+            >
+          </div>
+        </div>
+        <div class="coming-soon">
+          <p>More Coming Soon!</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
