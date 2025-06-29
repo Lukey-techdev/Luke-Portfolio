@@ -85,7 +85,7 @@ nav .right a span {
   align-items: center;
   text-align: center;
   padding: 0 50px;
-  margin: 150px 0;
+  margin: 100px 0;
   gap: 50px;
 }
 
@@ -130,20 +130,14 @@ nav .right a span {
 
 /* SKILLS SECTION */
 
-.skills-section {
-  padding: 0 50px;
-  margin-bottom: 100px;
-  margin-top: 365px;
-}
 .skills-section h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
 }
 .skills-section .text {
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 15px;
-  font-size: 25px;
+  margin-top: 13px;
 }
 
 .skills-section .cells {
@@ -160,8 +154,8 @@ nav .right a span {
   width: 200px;
   padding: 10px 20px;
   margin: 10px;
-  border: 1px solid var(--text-color);
-  border-radius: 5px;
+  border: 2px solid var(--text-color);
+  border-radius: 18px;
 }
 
 .skills-section .cells .cell img {
@@ -175,43 +169,17 @@ nav .right a span {
   font-size: 18px;
 }
 
-.skills-section .certificate {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.skills-section .certificate img {
-  max-width: 600px;
-  width: 100%;
-  margin-top: 10px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.certificate-note {
-  text-align: center;
-  margin-bottom: 60px;
-  margin-top: 30px;
-  font-size: 25px;
-}
-
 /* PROJECTS SECTION */
 
 #projects {
   margin-top: 150px;
-  margin-bottom: 570px;
+  margin-bottom: 100px;
 }
 
 #projects,
 h2 {
   text-align: center;
-  font-size: 25px;
-}
-
-.coming-soon {
-  font-size: 50px;
-  margin-top: 100px;
+  font-size: 30px;
 }
 
 .project-card {
@@ -247,14 +215,14 @@ h2 {
   color: #333;
 }
 
-.project-links {
+.project-card-links {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 15px;
 }
 
-.project-links a {
+.project-card-links a {
   font-size: 20px;
   text-decoration: none;
   color: white;
@@ -264,50 +232,31 @@ h2 {
   transition: background-color 0.2s ease;
 }
 
-.project-links a:hover {
-  background-color: #355edb;
+.project-card-links a:hover {
+  background-color: #364f9b;
 }
 
-.skills-projects-btn {
+/* CERTIFICATE */
+
+.certificate {
   margin-top: 40px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-.projects-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
+.certificate img {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 10px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 7px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
-.projects-button .click-hint {
-  font-size: 16px;
-  color: #555;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  cursor: default;
-  user-select: none;
-}
-
-.projects-button a {
-  display: inline-block;
-  padding: 12px 15px;
-  font-size: 19px;
-  border: 2px solid var(--link-color);
-  border-radius: 5px;
-  margin-right: 10px;
+.certificate-note {
+  text-align: center;
   margin-bottom: 10px;
-  transition: 0.1s;
-}
-
-.projects-button a:hover {
-  color: var(--text-color);
-  border: 2px solid var(--text-color);
-}
-
-.projects-button:hover .click-hint {
-  animation: bounceRight 1.5s infinite;
+  margin-top: 10px;
+  font-size: 20px;
 }
 
 /* CROSS PLATFORM COMPATABILITY */
@@ -337,15 +286,5 @@ h2 {
   .skills-section {
     padding: 0 20px;
     margin-top: 200px;
-  }
-}
-
-@keyframes bounceRight {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(5px);
   }
 }
