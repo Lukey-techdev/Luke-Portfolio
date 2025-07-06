@@ -2,6 +2,7 @@
   --text-color: #1a1c20;
   --link-color: #4a76ee;
   --background-color: #fbeeee;
+  --primary-font: "Poppins", sans-serif;
 }
 
 * {
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   background-color: var(--background-color);
   max-width: 1920px;
   margin: 0 auto;
@@ -176,15 +177,25 @@ nav .right a span {
   margin-bottom: 100px;
 }
 
-#projects,
-h2 {
+#projects h1 {
   text-align: center;
   font-size: 30px;
 }
 
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .project-card {
-  max-width: 1200px;
-  margin: 20px auto;
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

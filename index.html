@@ -25,7 +25,7 @@
     />
     <meta
       property="og:image"
-      content="https://luke-portfolio-page.netlify.app/images/thumbnail.jpg"
+      content="https://luke-portfolio-page.netlify.app/assets/thumbnail.jpg"
     />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
@@ -64,12 +64,13 @@
       <section id="welcome-section" class="hero-section">
         <div class="headshot">
           <a
-            href="/CV/lukelowersonCV.pdf"
+            href="/assets/CV.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="Download my CV"
           >
             <img
-              src="images/headshot.jpg"
+              src="assets/headshot.jpg"
               alt="Portrait photo of Luke Lowerson"
             />
           </a>
@@ -86,7 +87,7 @@
                 <span>Projects</span>
               </a>
               <a
-                href="/CV/lukelowersonCV.pdf"
+                href="/assets/CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -106,25 +107,25 @@
 
           <div class="cells">
             <div class="cell">
-              <img src="images/html-logo.webp" alt="HTML LOGO" />
+              <img src="assets/html-logo.webp" alt="HTML LOGO" />
               <span>HTML</span>
             </div>
 
             <div class="cell">
-              <img src="images/css-logo.webp" alt="CSS LOGO" />
+              <img src="assets/css-logo.webp" alt="CSS LOGO" />
               <span>CSS</span>
             </div>
 
             <div class="cell">
-              <img src="images/javascript-logo.webp" alt="JS LOGO" />
+              <img src="assets/javascript-logo.webp" alt="JS LOGO" />
               <span>JavaScript</span>
             </div>
             <div class="cell">
-              <img src="images/node-logo.webp" alt="Node LOGO" />
+              <img src="assets/node-logo.webp" alt="Node LOGO" />
               <span>Node.js</span>
             </div>
             <div class="cell">
-              <img src="images/react-logo.webp" alt="React LOGO" />
+              <img src="assets/react-logo.webp" alt="React LOGO" />
               <span>React.js</span>
             </div>
           </div>
@@ -133,37 +134,68 @@
 
       <section id="projects">
         <h1>Projects</h1>
-        <div class="project-card">
-          <a
-            href="https://thrive-project.netlify.app/"
-            target="_blank"
-            rel="noopener referrer"
-          >
-            <img
-              src="images/thrive-light.jpg"
-              alt="Thrive light mode screenshot"
-            />
-          </a>
-          <h3>Thrive 🌿</h3>
-          <p>
-            A responsive login page with toggleable dark/light mode,
-            nature-themed design, and modern UI elements.
-          </p>
-          <div class="project-card-links">
-            <a href="https://thrive-project.netlify.app/" target="_blank"
-              >🌐 Live Demo</a
+        <div class="projects-container">
+          <div class="project-card">
+            <a
+              href="https://thrive-project.netlify.app/"
+              target="_blank"
+              rel="noopener referrer"
             >
-            <a href="https://github.com/lukelowerson/thrive" target="_blank"
-              >📁 View Code</a
+              <img
+                src="assets/thrive-light.jpg"
+                alt="Thrive light mode screenshot"
+              />
+            </a>
+            <h3>Thrive 🌿</h3>
+            <p>
+              A responsive login page with toggleable dark/light mode,
+              nature-themed design, and modern UI elements.
+            </p>
+            <div class="project-card-links">
+              <a href="https://thrive-project.netlify.app/" target="_blank"
+                >🌐 Live Demo</a
+              >
+              <a href="https://github.com/lukelowerson/thrive" target="_blank"
+                >📁 View Code</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <a
+              href="https://sora-project.netlify.app/"
+              target="_blank"
+              rel="noopener referrer"
             >
+              <img
+                src="assets/sora-landing-page.jpg"
+                alt="Sora landing page screenshot"
+              />
+            </a>
+            <h3>Sora ☁️</h3>
+            <p>
+              A modern cloud storage SaaS landing page with minimalist design,
+              featuring safety, security, and storage solutions.
+            </p>
+            <div class="project-card-links">
+              <a href="https://sora-project.netlify.app/" target="_blank"
+                >🌐 Live Demo</a
+              >
+              <a href="https://github.com/lukelowerson/sora" target="_blank"
+                >📁 View Code</a
+              >
+            </div>
           </div>
         </div>
       </section>
+    </main>
+  </body>
+</html>
 
-      <!-- 
+<!-- 
       <div class="certificate">
         <img
-          src="images/certificate.png"
+          src="assets/certificate.png"
           alt="Responsive Web Design Certificate from freeCodeCamp"
         />
       </div>
@@ -171,6 +203,3 @@
       <p class="certificate-note">
         Certified in Responsive Web Design by freeCodeCamp.
       </p> -->
-    </main>
-  </body>
-</html>
