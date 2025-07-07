@@ -52,7 +52,7 @@ nav .left a {
 }
 
 nav .left a:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 nav .right {
@@ -123,6 +123,12 @@ nav .right a span {
 .hero-section .headshot img {
   border-radius: 50%;
   width: 450px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hero-section .headshot img:hover {
+  transform: scale(1.008);
 }
 
 .hero-section p {
