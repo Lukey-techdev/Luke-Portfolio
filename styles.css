@@ -172,12 +172,12 @@ nav .right a span {
 
 /* PROJECTS SECTION */
 
-#projects {
+.projects-section {
   margin-top: 150px;
   margin-bottom: 100px;
 }
 
-#projects h1 {
+.projects-section h1 {
   text-align: center;
   font-size: 30px;
 }
